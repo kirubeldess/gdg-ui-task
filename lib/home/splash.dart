@@ -8,14 +8,14 @@ class MySplash extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Container(
-      decoration: BoxDecoration(
+          decoration: BoxDecoration(
           gradient: LinearGradient(
-        colors: [
+          colors: [
           const Color(0xFF3B45AD),
           const Color.fromARGB(255, 93, 103, 212),
-        ],
-        begin: Alignment.topCenter,
-        end: Alignment.bottomCenter,
+          ],
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
       )),
       child: Center(
         child: Column(

@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
@@ -250,41 +252,7 @@ class DetailsScreen extends StatelessWidget {
             ),
           ),
 
-          // Positioned(
-          //   top: 140,
-          //   left: 10,
-          //   right: 0,
-          //   child: Center(
-          //     child: SizedBox(
-          //       width: 265,
-          //       height: 207,
-          //       child: Stack(
-          //         alignment: Alignment.center,
-          //         children: [
-          //           Transform.rotate(angle: 45 * math.pi / 180,
-          //           child: Container(
-          //             width: 300,
-          //             height: 300,
-          //             decoration: const BoxDecoration(
-          //               gradient: RadialGradient(colors: [
-          //                 Color(0x33FFFFFF),
-          //                 Colors.transparent,
-          //               ],
-          //               stops: [0.2,1.0],
-          //               ),
-          //             ),
-          //           ),
-          //           ),
-          //           Image.asset(
-          //               'assets/burger.png',
-          //               // width: 300,
-          //               // height: 250,
-          //             ),
-          //         ],
-          //       ),
-          //     ),
-          //   ),
-          // )
+          
 
           Positioned(
             top: 40,
@@ -322,7 +290,11 @@ class DetailsScreen extends StatelessWidget {
                 ),
               ),
             ),
-          )
+          ),
+
+
+
+
         ],
       ),
     );
